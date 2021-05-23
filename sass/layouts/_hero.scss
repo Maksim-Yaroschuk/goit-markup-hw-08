@@ -1,0 +1,24 @@
+.hero {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  background: linear-gradient(to right, #2f303a66 40%, #2f303a66 40%),
+    url(../images/bg-hero.jpg) no-repeat center #c4c4c4;
+  text-align: center;
+}
+
+.hero__container {
+  max-width: 696px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--logo-light-col);
+  margin-bottom: 30px;
+}

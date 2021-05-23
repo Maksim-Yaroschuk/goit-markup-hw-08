@@ -1,0 +1,22 @@
+.header {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--logo-dark-col);
+  background-color: var(--logo-light-col);
+  border-bottom: 1px solid var(--header-border-col);
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}

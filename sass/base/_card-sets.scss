@@ -1,0 +1,19 @@
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--margin-card));
+  margin-left: calc(-1 * var(--margin-card));
+}
+
+.content-card--3-items {
+  flex-basis: calc(100% / 3 - var(--margin-card));
+  margin-top: var(--margin-card);
+  margin-left: var(--margin-card);
+}
+
+.content-card--4-items {
+  flex-basis: calc(100% / 4 - var(--margin-card));
+  margin-top: var(--margin-card);
+  margin-left: var(--margin-card);
+}

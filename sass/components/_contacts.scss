@@ -1,0 +1,19 @@
+.contacts {
+  color: var(--main-text-col);
+  display: inline-flex;
+  margin-left: 93px;
+}
+
+.contacts__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contacts__link {
+  display: flex;
+  align-items: flex-end;
+}
+
+.contacts__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
