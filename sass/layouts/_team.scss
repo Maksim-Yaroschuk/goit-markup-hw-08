@@ -16,8 +16,12 @@
 }
 
 .team-card__name {
-  max-width: 270px;
+  width: 100%;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
   text-align: center;
+
+  @media screen and (min-width: 1199.98px) {
+    padding-bottom: 30px;
+  }
 }

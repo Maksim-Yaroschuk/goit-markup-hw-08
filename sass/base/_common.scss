@@ -6,6 +6,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  // outline: 1px solid red;
 }
 
 body {
@@ -26,7 +27,8 @@ p {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
@@ -38,6 +40,12 @@ img {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+.mobile-hidden {
+  @media screen and (max-width: 1199.98px) {
+    display: none;
+  }
 }
 
 .link {

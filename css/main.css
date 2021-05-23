@@ -45,7 +45,8 @@ p {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
@@ -57,6 +58,12 @@ img {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .mobile-hidden {
+    display: none;
+  }
 }
 
 .link {
@@ -76,11 +83,29 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }
 
 .flexbox {
@@ -98,9 +123,21 @@ img {
 }
 
 .content-card--4-items {
-  flex-basis: calc(100% / 4 - var(--margin-card));
+  flex-basis: 100%;
   margin-top: var(--margin-card);
   margin-left: var(--margin-card);
+}
+
+@media screen and (min-width: 768px) {
+  .content-card--4-items {
+    flex-basis: calc(100% / 2 - var(--margin-card));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content-card--4-items {
+    flex-basis: calc(100% / 4 - var(--margin-card));
+  }
 }
 
 .logo {
@@ -506,7 +543,14 @@ img {
 }
 
 .our-qualities {
-  padding-top: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1199.98px) {
+  .our-qualities {
+    padding-top: 94px;
+  }
 }
 
 .our-qualities__svg-block {
@@ -523,8 +567,15 @@ img {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1199.98px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .section__title {
@@ -533,7 +584,13 @@ img {
   line-height: 1.17;
   text-align: center;
   color: var(--title-text-col);
-  padding-bottom: 50px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 1199.98px) {
+  .section__title {
+    padding-bottom: 50px;
+  }
 }
 
 .section--grey-bg {
@@ -557,10 +614,16 @@ img {
 }
 
 .team-card__name {
-  max-width: 270px;
+  width: 100%;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
   text-align: center;
+}
+
+@media screen and (min-width: 1199.98px) {
+  .team-card__name {
+    padding-bottom: 30px;
+  }
 }
 
 .clients {
