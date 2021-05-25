@@ -7,6 +7,7 @@
 
   @media screen and (min-width: 1199.98px) {
     display: inline-flex;
+    flex-wrap: nowrap;
     margin-top: 0;
     margin-left: 0;
   }
@@ -27,9 +28,10 @@
     flex-basis: calc(100% / 3 - var(--margin-card));
   }
 
-  // @media screen and (min-width: 1200px) {
-  //   flex-basis: 100%;
-  // }
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+    margin-left: 0;
+  }
 }
 
 .clients__link {
@@ -37,7 +39,6 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  // width: 170px;
   height: 92px;
   border: 1px solid var(--svg-col);
   border-radius: 4px;
@@ -48,5 +49,9 @@
   &:focus {
     border-color: var(--accent-col);
     fill: currentColor;
+  }
+
+  @media screen and (min-width: 1199.98px) {
+    width: 170px;
   }
 }

@@ -637,6 +637,7 @@ img {
 @media screen and (min-width: 1199.98px) {
   .clients {
     display: inline-flex;
+    flex-wrap: nowrap;
     margin-top: 0;
     margin-left: 0;
   }
@@ -660,6 +661,13 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .clients__item {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+
 .clients__link {
   display: flex;
   align-items: center;
@@ -675,6 +683,12 @@ img {
 .clients__link:hover, .clients__link:focus {
   border-color: var(--accent-col);
   fill: currentColor;
+}
+
+@media screen and (min-width: 1199.98px) {
+  .clients__link {
+    width: 170px;
+  }
 }
 
 .portfolio-card {
