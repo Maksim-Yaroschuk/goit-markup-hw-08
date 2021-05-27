@@ -273,7 +273,7 @@ img {
 }
 
 .email-form__field {
-  width: 100%;
+  width: 450px;
   height: 50px;
   font-size: 16px;
   line-height: 1.25;
@@ -281,6 +281,12 @@ img {
   padding-left: 16px;
   box-sizing: border-box;
   border-radius: 4px;
+}
+
+@media screen and (max-width: 480px) {
+  .email-form__field {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1199.98px) {
@@ -731,6 +737,12 @@ img {
   padding: 60px 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer__container {
+    display: flex;
+  }
+}
+
 .footer__address {
   font-style: normal;
   margin-top: 20px;
@@ -744,6 +756,16 @@ img {
 @media screen and (min-width: 768px) {
   .footer--flex {
     display: flex;
+    justify-content: space-between;
+    margin-left: 61px;
+    margin-right: 74px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer--flex {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -751,16 +773,10 @@ img {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) {
-  .footer__blocks {
-    margin-left: 61px;
-    margin-right: 74px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .footer__blocks {
     text-align: left;
+    margin-right: 76px;
   }
 }
 
@@ -770,23 +786,16 @@ img {
   }
 }
 
-.footer__blocks:not(:last-child) {
-  margin-right: 0;
-}
-
-@media screen and (min-width: 1199.98px) {
-  .footer__blocks:not(:last-child) {
-    margin-right: 76px;
-  }
-}
-
-.footer__blocks:last-child {
-  margin-right: 0;
+.footer__block-form {
+  text-align: center;
+  margin-top: 60px;
 }
 
 @media screen and (min-width: 1200px) {
-  .footer__blocks:last-child {
-    margin-left: 23px;
+  .footer__block-form {
+    margin-top: 0;
+    text-align: left;
+    margin-left: auto;
   }
 }
 
@@ -815,10 +824,18 @@ img {
 }
 
 .footer__form-field {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.6);
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (max-width: 1199.98px) {
+  .footer__form-field {
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 1199.98px) {

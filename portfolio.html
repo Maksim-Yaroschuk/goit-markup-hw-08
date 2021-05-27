@@ -235,9 +235,8 @@
     </main>
     <!-- Футер -->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer__container">
         <ul class="list footer--flex">
-          <!-- Адреса -->
           <li class="footer__blocks">
             <a class="logo" href="./index.html" lang="en"
               ><span class="logo--second-color">Web</span>Studio</a
@@ -256,7 +255,6 @@
               </li>
             </ul>
           </li>
-          <!-- Посилання на соціальні мережі -->
           <li class="footer__blocks">
             <p class="footer__title title title--uppercase">Присоединяйтесь</p>
             <ul class="social-icons footer__social-icons list">
@@ -310,24 +308,23 @@
               </li>
             </ul>
           </li>
-          <!-- Форма підписки на новини сайту -->
-          <li class="footer__blocks">
-            <p class="footer__title title title--uppercase">
-              Подпишитесь на рассылку
-            </p>
-            <form class="footer__form email-form">
-              <input
-                type="email"
-                name="user-email"
-                class="footer__form-field email-form__field"
-                placeholder="E-mail"
-              />
-              <button type="submit" class="btn email-form__btn">
-                Подписаться
-              </button>
-            </form>
-          </li>
         </ul>
+        <div class="footer__block-form">
+          <p class="footer__title title title--uppercase">
+            Подпишитесь на рассылку
+          </p>
+          <form class="footer__form email-form">
+            <input
+              type="email"
+              name="user-email"
+              class="footer__form-field email-form__field"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="btn email-form__btn">
+              Подписаться
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
