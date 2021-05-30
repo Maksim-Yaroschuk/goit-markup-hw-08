@@ -6,8 +6,18 @@
   color: var(--logo-dark-col);
   background-color: var(--logo-light-col);
   border-bottom: 1px solid var(--header-border-col);
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 
 .header__container {
