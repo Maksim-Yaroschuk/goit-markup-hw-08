@@ -7,9 +7,17 @@
 }
 
 .content-card--3-items {
-  flex-basis: calc(100% / 3 - var(--margin-card));
+  flex-basis: 100%;
   margin-top: var(--margin-card);
   margin-left: var(--margin-card);
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(100% / 2 - var(--margin-card));
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc(100% / 3 - var(--margin-card));
+  }
 }
 
 .content-card--4-items {

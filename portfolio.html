@@ -27,12 +27,12 @@
           >
           <ul class="list main-menu">
             <li class="main-menu__item">
-              <a class="main-menu__link link current-page" href="./index.html"
-                >Студия</a
-              >
+              <a class="main-menu__link link" href="./index.html">Студия</a>
             </li>
             <li class="main-menu__item">
-              <a class="main-menu__link link" href="./portfolio.html"
+              <a
+                class="main-menu__link link current-page"
+                href="./portfolio.html"
                 >Портфолио</a
               >
             </li>
@@ -148,12 +148,57 @@
           <ul class="list flexbox">
             <li class="portfolio-card overlay content-card--3-items">
               <div class="overlay__img">
-                <img
-                  src="./images/portfolio/port-1.jpg"
-                  alt="Веб-сайт на екране ноутбука"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/img(0)_desktop.webp    1x,
+                      ./images/desktop/img(0)@2x_desktop.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/webp" />
+                  <source
+                    srcset="
+                      ./images/tablet/img(0)_tablet.webp    1x,
+                      ./images/tablet/img(0)@2x_tablet.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/webp" />
+                  <source
+                    srcset="
+                      ./images/mobile/img(0)_mobile.webp    1x,
+                      ./images/mobile/img(0)@2x_mobile.webp 2x
+                    "
+                    media="(max-width: 767.98px)"
+                    type="image/webp" />
+
+                  <source
+                    srcset="
+                      ./images/desktop/img(0)_desktop.jpg    1x,
+                      ./images/desktop/img(0)@2x_desktop.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/jpeg" />
+                  <source
+                    srcset="
+                      ./images/tablet/img(0)_tablet.jpg    1x,
+                      ./images/tablet/img(0)@2x_tablet.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/jpeg" />
+                  <source
+                    srcset="
+                      ./images/mobile/img(0)_mobile.jpg    1x,
+                      ./images/mobile/img(0)@2x_mobile.jpg 2x
+                    "
+                    media="(max-width: 767.98px)"
+                    type="image/jpeg" />
+                  <img
+                    class="projects__picture"
+                    src="./images/mobile/img(0)_mobile.jpg"
+                    alt="Веб-сайт на екране ноутбука"
+                    width="370"
+                    height="294"
+                /></picture>
                 <div class="overlay__block">
                   <p class="overlay__text">
                     Технокряк это современная площадка распространения
@@ -168,12 +213,57 @@
               </div>
             </li>
             <li class="portfolio-card content-card--3-items">
-              <img
-                src="./images/portfolio/port-2.jpg"
-                alt="Баскетболисты"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/img(1)_desktop.webp    1x,
+                    ./images/desktop/img(1)@2x_desktop.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/tablet/img(1)_tablet.webp    1x,
+                    ./images/tablet/img(1)@2x_tablet.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/mobile/img(1)_mobile.webp    1x,
+                    ./images/mobile/img(1)@2x_mobile.webp 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/webp" />
+
+                <source
+                  srcset="
+                    ./images/desktop/img(1)_desktop.jpg    1x,
+                    ./images/desktop/img(1)@2x_desktop.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/tablet/img(1)_tablet.jpg    1x,
+                    ./images/tablet/img(1)@2x_tablet.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/mobile/img(1)_mobile.jpg    1x,
+                    ./images/mobile/img(1)@2x_mobile.jpg 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/jpeg" />
+                <img
+                  class="projects__picture"
+                  src="./images/mobile/img(1)_mobile.jpg"
+                  alt="Баскетболисты"
+                  width="370"
+                  height="294"
+              /></picture>
               <div class="portfolio-card__content">
                 <h3 class="portfolio-card__title">
                   Постер <span lang="en">New Orlean vs Golden Star</span>
@@ -182,12 +272,57 @@
               </div>
             </li>
             <li class="portfolio-card content-card--3-items">
-              <img
-                src="./images/portfolio/port-3.jpg"
-                alt="Лого ресторана морской кухни"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/img(2)_desktop.webp    1x,
+                    ./images/desktop/img(2)@2x_desktop.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/tablet/img(2)_tablet.webp    1x,
+                    ./images/tablet/img(2)@2x_tablet.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/mobile/img(2)_mobile.webp    1x,
+                    ./images/mobile/img(2)@2x_mobile.webp 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/webp" />
+
+                <source
+                  srcset="
+                    ./images/desktop/img(2)_desktop.jpg    1x,
+                    ./images/desktop/img(2)@2x_desktop.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/tablet/img(2)_tablet.jpg    1x,
+                    ./images/tablet/img(2)@2x_tablet.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/mobile/img(2)_mobile.jpg    1x,
+                    ./images/mobile/img(2)@2x_mobile.jpg 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/jpeg" />
+                <img
+                  class="projects__picture"
+                  src="./images/mobile/img(2)_mobile.jpg"
+                  alt="Лого ресторана морской кухни"
+                  width="370"
+                  height="294"
+              /></picture>
               <div class="portfolio-card__content">
                 <h3 class="portfolio-card__title">
                   Ресторан <span lang="en">Seafood</span>
@@ -196,12 +331,57 @@
               </div>
             </li>
             <li class="portfolio-card content-card--3-items">
-              <img
-                src="./images/portfolio/port-4.jpg"
-                alt="Наушники"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/img(3)_desktop.webp    1x,
+                    ./images/desktop/img(3)@2x_desktop.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/tablet/img(3)_tablet.webp    1x,
+                    ./images/tablet/img(3)@2x_tablet.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/mobile/img(3)_mobile.webp    1x,
+                    ./images/mobile/img(3)@2x_mobile.webp 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/webp" />
+
+                <source
+                  srcset="
+                    ./images/desktop/img(3)_desktop.jpg    1x,
+                    ./images/desktop/img(3)@2x_desktop.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/tablet/img(3)_tablet.jpg    1x,
+                    ./images/tablet/img(3)@2x_tablet.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/mobile/img(3)_mobile.jpg    1x,
+                    ./images/mobile/img(3)@2x_mobile.jpg 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/jpeg" />
+                <img
+                  class="projects__picture"
+                  src="./images/mobile/img(3)_mobile.jpg"
+                  alt="Наушники"
+                  width="370"
+                  height="294"
+              /></picture>
               <div class="portfolio-card__content">
                 <h3 class="portfolio-card__title">
                   Проект <span lang="en">Prime</span>
@@ -210,12 +390,57 @@
               </div>
             </li>
             <li class="portfolio-card content-card--3-items">
-              <img
-                src="./images/portfolio/port-5.jpg"
-                alt="Коробки"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/img(4)_desktop.webp    1x,
+                    ./images/desktop/img(4)@2x_desktop.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/tablet/img(4)_tablet.webp    1x,
+                    ./images/tablet/img(4)@2x_tablet.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/mobile/img(4)_mobile.webp    1x,
+                    ./images/mobile/img(4)@2x_mobile.webp 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/webp" />
+
+                <source
+                  srcset="
+                    ./images/desktop/img(4)_desktop.jpg    1x,
+                    ./images/desktop/img(4)@2x_desktop.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/tablet/img(4)_tablet.jpg    1x,
+                    ./images/tablet/img(4)@2x_tablet.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/mobile/img(4)_mobile.jpg    1x,
+                    ./images/mobile/img(4)@2x_mobile.jpg 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/jpeg" />
+                <img
+                  class="projects__picture"
+                  src="./images/mobile/img(4)_mobile.jpg"
+                  alt="Коробки"
+                  width="370"
+                  height="294"
+              /></picture>
               <div class="portfolio-card__content">
                 <h3 class="portfolio-card__title">
                   Проект <span lang="en">Boxes</span>
@@ -224,12 +449,57 @@
               </div>
             </li>
             <li class="portfolio-card content-card--3-items">
-              <img
-                src="./images/portfolio/port-6.jpg"
-                alt="Веб-сайт на мониторе"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/img(5)_desktop.webp    1x,
+                    ./images/desktop/img(5)@2x_desktop.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/tablet/img(5)_tablet.webp    1x,
+                    ./images/tablet/img(5)@2x_tablet.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/mobile/img(5)_mobile.webp    1x,
+                    ./images/mobile/img(5)@2x_mobile.webp 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/webp" />
+
+                <source
+                  srcset="
+                    ./images/desktop/img(5)_desktop.jpg    1x,
+                    ./images/desktop/img(5)@2x_desktop.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/tablet/img(5)_tablet.jpg    1x,
+                    ./images/tablet/img(5)@2x_tablet.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/mobile/img(5)_mobile.jpg    1x,
+                    ./images/mobile/img(5)@2x_mobile.jpg 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/jpeg" />
+                <img
+                  class="projects__picture"
+                  src="./images/mobile/img(5)_mobile.jpg"
+                  alt="Веб-сайт на мониторе"
+                  width="370"
+                  height="294"
+              /></picture>
               <div class="portfolio-card__content">
                 <h3 class="portfolio-card__title" lang="en">
                   Inspiration has no Borders
@@ -238,12 +508,57 @@
               </div>
             </li>
             <li class="portfolio-card content-card--3-items">
-              <img
-                src="./images/portfolio/port-7.jpg"
-                alt="Открыта книга"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/img(6)_desktop.webp    1x,
+                    ./images/desktop/img(6)@2x_desktop.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/tablet/img(6)_tablet.webp    1x,
+                    ./images/tablet/img(6)@2x_tablet.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/mobile/img(6)_mobile.webp    1x,
+                    ./images/mobile/img(6)@2x_mobile.webp 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/webp" />
+
+                <source
+                  srcset="
+                    ./images/desktop/img(6)_desktop.jpg    1x,
+                    ./images/desktop/img(6)@2x_desktop.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/tablet/img(6)_tablet.jpg    1x,
+                    ./images/tablet/img(6)@2x_tablet.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/mobile/img(6)_mobile.jpg    1x,
+                    ./images/mobile/img(6)@2x_mobile.jpg 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/jpeg" />
+                <img
+                  class="projects__picture"
+                  src="./images/mobile/img(6)_mobile.jpg"
+                  alt="Открыта книга"
+                  width="370"
+                  height="294"
+              /></picture>
               <div class="portfolio-card__content">
                 <h3 class="portfolio-card__title">
                   Издание <span lang="en">Limited Edition</span>
@@ -252,12 +567,57 @@
               </div>
             </li>
             <li class="portfolio-card content-card--3-items">
-              <img
-                src="./images/portfolio/port-8.jpg"
-                alt="Бирка"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/img(7)_desktop.webp    1x,
+                    ./images/desktop/img(7)@2x_desktop.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/tablet/img(7)_tablet.webp    1x,
+                    ./images/tablet/img(7)@2x_tablet.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/mobile/img(7)_mobile.webp    1x,
+                    ./images/mobile/img(7)@2x_mobile.webp 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/webp" />
+
+                <source
+                  srcset="
+                    ./images/desktop/img(7)_desktop.jpg    1x,
+                    ./images/desktop/img(7)@2x_desktop.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/tablet/img(7)_tablet.jpg    1x,
+                    ./images/tablet/img(7)@2x_tablet.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/mobile/img(7)_mobile.jpg    1x,
+                    ./images/mobile/img(7)@2x_mobile.jpg 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/jpeg" />
+                <img
+                  class="projects__picture"
+                  src="./images/mobile/img(7)_mobile.jpg"
+                  alt="Бирка"
+                  width="370"
+                  height="294"
+              /></picture>
               <div class="portfolio-card__content">
                 <h3 class="portfolio-card__title">
                   Проект <span lang="en">LAB</span>
@@ -266,12 +626,57 @@
               </div>
             </li>
             <li class="portfolio-card content-card--3-items">
-              <img
-                src="./images/portfolio/port-9.jpg"
-                alt="Ноутбук"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/img(8)_desktop.webp    1x,
+                    ./images/desktop/img(8)@2x_desktop.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/tablet/img(8)_tablet.webp    1x,
+                    ./images/tablet/img(8)@2x_tablet.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/mobile/img(8)_mobile.webp    1x,
+                    ./images/mobile/img(8)@2x_mobile.webp 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/webp" />
+
+                <source
+                  srcset="
+                    ./images/desktop/img(8)_desktop.jpg    1x,
+                    ./images/desktop/img(8)@2x_desktop.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/tablet/img(8)_tablet.jpg    1x,
+                    ./images/tablet/img(8)@2x_tablet.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/jpeg" />
+                <source
+                  srcset="
+                    ./images/mobile/img(8)_mobile.jpg    1x,
+                    ./images/mobile/img(8)@2x_mobile.jpg 2x
+                  "
+                  media="(max-width: 767.98px)"
+                  type="image/jpeg" />
+                <img
+                  class="projects__picture"
+                  src="./images/mobile/img(8)_mobile.jpg"
+                  alt="Ноутбук"
+                  width="370"
+                  height="294"
+              /></picture>
               <div class="portfolio-card__content">
                 <h3 class="portfolio-card__title" lang="en">
                   Growing Business

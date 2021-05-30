@@ -49,6 +49,12 @@
 .checkbox__label {
   cursor: pointer;
 
+  @media screen and (max-width: 1199.98px) {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+  }
+
   &::before {
     content: "";
     display: inline-block;
