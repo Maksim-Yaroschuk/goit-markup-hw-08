@@ -1,7 +1,7 @@
 .card-navigation {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 
   @media screen and (min-width: 768px) {
     padding-bottom: 30px;
@@ -15,6 +15,10 @@
 
 .card-navigation--btn-margin:not(:last-child) {
   margin-right: 8px;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 15px;
+  }
 }
 
 .card-navigation__btn {
