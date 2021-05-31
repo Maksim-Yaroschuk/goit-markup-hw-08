@@ -837,6 +837,12 @@ img {
   text-align: center;
 }
 
+@media screen and (min-width: 767.98px) {
+  .our-qualities__title {
+    text-align: left;
+  }
+}
+
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
